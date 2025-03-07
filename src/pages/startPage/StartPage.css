@@ -1,0 +1,22 @@
+.startPage {
+    height: 100%;
+    width: 100%;
+    background-color: var(--mainColor);
+    background-image: url("../../asset/building_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+
+    /* FlexBox */
+    display: flex;
+    flex-direction: column;
+
+    .headerPage {
+        height: 10%;
+        width: 100%;
+    }
+
+    .mainUI {
+        flex: 1;
+    }
+}

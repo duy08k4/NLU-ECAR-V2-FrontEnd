@@ -1,2 +1,19 @@
-/* For information on how to create your own theme, please see:
-http://ionicframework.com/docs/theming/ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+ion-app {
+    background-color: white;
+}
+
+:root {
+    --mainColor : #468F40;
+}
